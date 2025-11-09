@@ -1,16 +1,52 @@
-# React + Vite
+<h1 align="center">🌐 PulseHub — Personal Productivity & Insights Dashboard</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>Modern web dashboard integrating Weather, Stocks, Expenses, Diary, and AI chat — all in one place.</b><br>
+  Built with ❤️ using <a href="https://react.dev/">React</a> + <a href="https://vitejs.dev/">Vite</a> + <a href="https://getbootstrap.com/">Bootstrap</a>.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2-blue?logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-Frontend%20Builder-yellow?logo=vite" alt="Vite" />
+  <img src="https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**PulseHub** is a sleek, responsive web app that unifies **daily productivity tools** and **AI-powered insights** —  
+all under one beautifully animated and theme-aware interface.
 
-## Expanding the ESLint configuration
+It’s designed for people who want *clarity + creativity* in one dashboard.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Features
+
+| 🌟 Feature | Description |
+|-------------|-------------|
+| **Weather Forecast** | Real-time weather with location-based AI tips |
+| **Stock Tracker** | Live stock updates and AI investment recommendations |
+| **Expense Tracker** | Add, edit, and visualize expenses (requires login) |
+| **Personal Diary** | Secure personal journaling space (requires login) |
+| **Ask AI** | Quick, ephemeral chat with an AI assistant |
+| **Dark/Light Mode** | Adaptive UI with smooth theme transitions |
+| **Animated UI** | Subtle framer-motion animations & hover transitions |
+
+---
+
+## 🧩 Tech Stack
+
+| Layer | Technology |
+|--------|-------------|
+| Frontend Framework | ⚛️ [React 18](https://react.dev/) |
+| Build Tool | ⚡ [Vite](https://vitejs.dev/) |
+| Styling | 🎨 [Bootstrap 5](https://getbootstrap.com/), Custom CSS3 |
+| Animation | 🌀 [Framer Motion](https://www.framer.com/motion/) |
+| API Handling | 🌐 Native Fetch API |
+| State & Context | 🧠 React Hooks (`useState`, `useEffect`, `useContext`) |
+| Charting (optional) | 📊 [Recharts](https://recharts.org/en-US/) |
+
+---
