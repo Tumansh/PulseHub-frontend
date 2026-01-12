@@ -1,52 +1,73 @@
-<h1 align="center">🌐 PulseHub — Personal Productivity & Insights Dashboard</h1>
+<h1 align="center">🌐 PulseHub Frontend</h1>
 
 <p align="center">
-  <b>Modern web dashboard integrating Weather, Stocks, Expenses, Diary, and AI chat — all in one place.</b><br>
-  Built with ❤️ using <a href="https://react.dev/">React</a> + <a href="https://vitejs.dev/">Vite</a> + <a href="https://getbootstrap.com/">Bootstrap</a>.
+  Frontend user interface for the PulseHub application.<br/>
+  Built as a single-page application using React.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18.2-blue?logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-Frontend%20Builder-yellow?logo=vite" alt="Vite" />
+  <img src="https://img.shields.io/badge/Vite-Build%20Tool-yellow?logo=vite" alt="Vite" />
   <img src="https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" />
+  <img src="https://img.shields.io/badge/Deployment-Netlify-brightgreen" alt="Netlify" />
 </p>
 
----
+<hr/>
 
-## ✨ Overview
+<h2>🔍 Overview</h2>
 
-**PulseHub** is a sleek, responsive web app that unifies **daily productivity tools** and **AI-powered insights** —  
-all under one beautifully animated and theme-aware interface.
+<p>
+This repository contains the <b>frontend client</b> for PulseHub.
+It focuses on rendering UI components and handling user interactions.
+</p>
 
-It’s designed for people who want *clarity + creativity* in one dashboard.
+<p>
+The frontend communicates with backend APIs to fetch and display data.
+All server-side logic and data persistence are handled separately.
+</p>
 
----
+<hr/>
 
-## ⚙️ Features
+<h2>⚙️ Features</h2>
 
-| 🌟 Feature | Description |
-|-------------|-------------|
-| **Weather Forecast** | Real-time weather with location-based AI tips |
-| **Stock Tracker** | Live stock updates and AI investment recommendations |
-| **Expense Tracker** | Add, edit, and visualize expenses (requires login) |
-| **Personal Diary** | Secure personal journaling space (requires login) |
-| **Ask AI** | Quick, ephemeral chat with an AI assistant |
-| **Dark/Light Mode** | Adaptive UI with smooth theme transitions |
-| **Animated UI** | Subtle framer-motion animations & hover transitions |
+<table>
+<tr><th>Feature</th><th>Description</th></tr>
+<tr><td>Authentication UI</td><td>Login and signup screens</td></tr>
+<tr><td>Dashboard Pages</td><td>Expenses, Diary, Weather, Stocks</td></tr>
+<tr><td>Protected Views</td><td>Access control at route level</td></tr>
+<tr><td>API Consumption</td><td>Fetch-based HTTP requests</td></tr>
+<tr><td>Responsive Layout</td><td>Works across desktop and mobile</td></tr>
+</table>
 
----
+<hr/>
 
-## 🧩 Tech Stack
+<h2>🧩 Tech Stack</h2>
 
-| Layer | Technology |
-|--------|-------------|
-| Frontend Framework | ⚛️ [React 18](https://react.dev/) |
-| Build Tool | ⚡ [Vite](https://vitejs.dev/) |
-| Styling | 🎨 [Bootstrap 5](https://getbootstrap.com/), Custom CSS3 |
-| Animation | 🌀 [Framer Motion](https://www.framer.com/motion/) |
-| API Handling | 🌐 Native Fetch API |
-| State & Context | 🧠 React Hooks (`useState`, `useEffect`, `useContext`) |
-| Charting (optional) | 📊 [Recharts](https://recharts.org/en-US/) |
+<table>
+<tr><th>Layer</th><th>Technology</th></tr>
+<tr><td>Framework</td><td>React 18</td></tr>
+<tr><td>Build Tool</td><td>Vite</td></tr>
+<tr><td>Styling</td><td>Bootstrap 5, CSS</td></tr>
+<tr><td>Routing</td><td>React Router</td></tr>
+<tr><td>State Management</td><td>React Hooks</td></tr>
+<tr><td>API Communication</td><td>Fetch API</td></tr>
+<tr><td>Deployment</td><td>Netlify</td></tr>
+</table>
 
----
+<hr/>
+
+<h2>🚀 Live Demo</h2>
+
+<p>
+<a href="http://pulsehubdev.netlify.app/" target="_blank">
+http://pulsehubdev.netlify.app/
+</a>
+</p>
+
+<hr/>
+
+<h2>📄 License</h2>
+
+<p>
+This project is licensed under the <b>MIT License</b>.
+</p>
